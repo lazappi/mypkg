@@ -25,3 +25,5 @@ Imports:
     ggplot2,
     rlang
 VignetteBuilder: knitr
+URL: https://github.com/lazappi/mypkg
+BugReports: https://github.com/lazappi/mypkg/issues
