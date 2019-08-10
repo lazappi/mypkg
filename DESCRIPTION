@@ -1,0 +1,27 @@
+Package: mypkg
+Title: My Personal Package
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Package",
+           family = "Creator",
+           role = c("aut", "cre"),
+           email = "package.creator@mypkg.com"),
+    person(given = "Package",
+           family = "Contributor",
+           role = c("ctb"),
+           email = "package.contributor@mypkg.com")
+    )
+Description: This is my personal package. It contains some handy functions that
+    I find useful for my projects.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Suggests: 
+    testthat (>= 2.1.0),
+    knitr,
+    rmarkdown
+Imports: 
+    ggplot2,
+    rlang
+VignetteBuilder: knitr
